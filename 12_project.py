@@ -23,7 +23,7 @@ b = (screen_height / 2) - (app_height / 2)
 # initializing the co ordinates of our window
 root.geometry(f'{app_width}x{app_height}+{int(a)}+{int(b)}')
 
-# globalizing the variable'
+# globalizing the variable
 global enter_customer_details
 def enter_customer_details():
 	# creating a new window in our program
@@ -53,7 +53,7 @@ def enter_customer_details():
 		# checking if all the values were filled or not
 		if (serial_no == '' or customer_name == '' or check_in_date == '' or phone_no == '' or room_no == '' or 
 		check_out_date == '') :
-			# shows an error the the user in a messagebox
+			# shows an error to the user in a messagebox
 			messagebox.showerror('Error', 'Please fill all details to enter records!')
 			serial.set('')
 			name2.set('')
