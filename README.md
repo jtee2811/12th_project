@@ -1,1 +1,1 @@
-# 12th_project
+# Basic hotel database management system
